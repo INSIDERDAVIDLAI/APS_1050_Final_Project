@@ -22,11 +22,13 @@ contract Election {
     );
 
     constructor () public {
-        addCandidate("Candidate 1");
-        addCandidate("Candidate 2");
+        addCandidate("Gina", "Scottish Terrier", 3, "Tooleville, West Virginia");
+        addCandidate("Collins", "French Bulldog", 2, "Freeburn, Idaho");
+        addCandidate("Melissa", "Boxer", 2, "Camas, Pennsylvania");
+        addCandidate("Gina", "Golden Retriever", 3, "Soudan, Louisiana");
     }
 
-    function addCandidate (string memory _name) private {
+    function addCandidate (string memory _name, string memory _breed, uint _age, string memory _location) private {
         candidatesCount ++;
         candidates[candidatesCount] = Candidate(candidatesCount, _name, 0);
     }
