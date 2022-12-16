@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Boxer",
+    "img": "../images/boxer.jpeg"
+  },
+  {
+    "name": "French Bulldog",
+    "img": "../images/french-bulldog.jpeg"
+  },
+  {
+    "name": "Golden Retriever",
+    "img": "../images/golden-retriever.jpeg"
+  },
+  {
+    "name": "Scottish Terrier",
+    "img": "../images/scottish-terrier.jpeg"
+  }
+]

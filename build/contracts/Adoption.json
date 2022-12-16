@@ -295,10 +295,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        214,
-                        215
+                        336,
+                        337
                       ],
-                      "referencedDeclaration": 214,
+                      "referencedDeclaration": 336,
                       "src": "145:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -381,7 +381,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 211,
+                        "referencedDeclaration": 333,
                         "src": "202:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -831,10 +831,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                214,
-                                215
+                                336,
+                                337
                               ],
-                              "referencedDeclaration": 214,
+                              "referencedDeclaration": 336,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -1048,7 +1048,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 211,
+                                  "referencedDeclaration": 333,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1247,12 +1247,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xD0A3284D3CFeEd706f0b0cEB6aB5f019559949EA",
-      "transactionHash": "0x6a2124d2f36b8a742f7589814e192013fd86670b98906584a7ea0c3629e86db8"
+      "address": "0x2D4DDD2Ec48Da5b1cFA28D49c2CE31E580824AF9",
+      "transactionHash": "0x0fa236fe6f36fd20ff6e45e990944917abcffb594ce9bb67a96376864a088dd3"
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-12-15T04:08:04.999Z",
+  "updatedAt": "2022-12-16T05:08:08.687Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
