@@ -29,28 +29,28 @@ contract Election {
 
     constructor() public {
         addCandidate(
-            "Gina",
+            "Java",
             "Scottish Terrier",
             3,
             "Tooleville, West Virginia",
             "images/scottish-terrier.jpeg"
         );
         addCandidate(
-            "Collins",
+            "Kotlin",
             "French Bulldog",
             2,
             "Freeburn, Idaho",
             "images/french-bulldog.jpeg"
         );
         addCandidate(
-            "Melissa",
+            "Python",
             "Boxer",
             2,
             "Camas, Pennsylvania",
             "images/boxer.jpeg"
         );
         addCandidate(
-            "Gina",
+            "Ruby",
             "Golden Retriever",
             3,
             "Soudan, Louisiana",
