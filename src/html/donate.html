@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pet‘s Donation</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <div class="container">
+    <ul class="nav">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="donate.html">Donate to Petshop</a></li>
+      <li><a class="active" href="reg.html">Register Pet for vote</a></li>
+      <li><a href="vote.html">Vote a Pet</a></li>
+    </ul>
+    <div class="row">
+      <p id="accountBalance" class="text-center"></p>
+      <p id="accountAddress" class="text-center"></p>
+      <h4>Make Donation Here</h4>
+      <hr />
+      <form onSubmit="DonationApp.sendDonation(); return false;" style="text-align: center;">
+        I would like to donate:
+        <input class="text-center" type="text" id="newString"> ETH to the petshop.
+        <button type="submit" class="btn btn-primary">Donate</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/web3.min.js"></script>
+  <script src="../js/truffle-contract.js"></script>
+  <script src="../js/donate.js"></script>
+  </body>
+
+</html>

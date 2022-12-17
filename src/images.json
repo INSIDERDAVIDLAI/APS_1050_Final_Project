@@ -14,5 +14,9 @@
   {
     "name": "Scottish Terrier",
     "img": "../images/scottish-terrier.jpeg"
+  },
+  {
+    "name": "Isabelle",
+    "img" : "../images/Isabelle.png"
   }
 ]
