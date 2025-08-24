@@ -5,7 +5,8 @@ contract Adoption {
 
     // Adopting a pet
     function adopt(uint256 petId) public returns (uint256) {
-        require(petId >= 0 && petId <= 15);
+        // Ensure the pet identifier is within the expected array bounds
+        require(petId < 16, "Invalid pet ID");
 
         adopters[petId] = msg.sender;
 
