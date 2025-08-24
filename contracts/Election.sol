@@ -101,6 +101,12 @@ contract Election {
         string memory _loc,
         string memory _img
     ) public {
+        // Prevent an address from registering multiple candidates
+        require(!regList[msg.sender], "Address already registered");
+
+        // Mark the sender as registered
+        regList[msg.sender] = true;
+
         addCandidate(_name, _breed, _age, _loc, _img);
 
         emit registeredEvent(candidatesCount);
